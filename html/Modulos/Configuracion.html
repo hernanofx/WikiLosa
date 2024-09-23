@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Incluye tu archivo CSS aquí -->
+</head>
+<body>
+
+<nav class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#primerproyecto" class="text-decoration-none">Mi primer proyecto</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#cargaunidades" class="text-decoration-none">Carga de las unidades de un proyecto</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#configuracionrubros" class="text-decoration-none">Configuración de rubros</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#configuracionbancos" class="text-decoration-none">Configuración de bancos</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#configuracioncajas" class="text-decoration-none">Configuración de cajas</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#configuracionmonedas" class="text-decoration-none">Configuración de monedas</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#configuracionusuarios" class="text-decoration-none">Configuración de usuarios y roles</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#configuracionindices" class="text-decoration-none">Configuración de índices</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#tiposcuotas" class="text-decoration-none">Tipos de cuotas</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#tiposunidad" class="text-decoration-none">Tipos de unidad</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#auditoria" class="text-decoration-none">Auditoría</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#permisoeliminacion" class="text-decoration-none">Permiso de eliminación general</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#logosproyecto" class="text-decoration-none">Logos por Proyecto</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#tarjetas" class="text-decoration-none">Tarjetas de crédito y débito</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#recibos" class="text-decoration-none">Recibos con firma digital</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#visualizacionunidades" class="text-decoration-none">Visualización General de Unidades</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<style>
+    .btn-row {
+        margin-bottom: 10px;
+    }
+</style>
+
+
+
+
+<h2 id="primerproyecto">Mi primer proyecto</h2>
+<p>1. Para crear tu Primer Proyecto debes dirigirte al panel principal, buscar el módulo Configuración y hacer clic.</p>
+<p>2. A continuación, seleccionaremos la opción Proyectos y Unidades.</p>
+<p>3. Posteriormente, vamos a visualizar el botón Crear Proyecto, el cual debemos seleccionar.</p>
+<figure class="image">
+    <img src="/imagenes/proyecto_1.png" alt="Proyecto paso 1">
+</figure>
+<p>4. Se abrirá una ventana donde vamos a ingresar los datos del proyecto: Nombre, Nombre de la Razón Social, CUIT, Dirección, Número de pisos, Nombre de la división x1 y x99, y fecha. También podremos agregar el logo del proyecto, este último punto es opcional.</p>
+<p>5. Hacer clic en Guardar. ¡Listo! Tu proyecto ha sido creado y ya puedes comenzar a cargar las unidades.</p>
+<figure class="image">
+    <img src="/imagenes/protecto_2.png" alt="Proyecto paso 2">
+</figure>
+
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/KhYCxPdo9Rk?si=XrcJzraCeaYW0tjp&cc_lang_pref=es&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="cargaunidades">Carga de las unidades de un proyecto</h2>
+<p>Una vez creado tu proyecto, vas a poder cargar las unidades, puedes realizarlo de manera individual o masivamente:</p>
+
+<h6>Carga Individual:</h6>
+<p>1. En la esquina superior derecha vas a encontrar el botón de Crear unidades, el cual vas a seleccionar:</p>
+<figure class="image">
+    <img src="/imagenes/unidades_1.png" alt="Crear unidades">
+</figure>
+<p>2. Se abrirá una ventana para que ingreses todos los detalles de la unidad: Piso, N° de unidad, Tipo de unidad, precio en USD, Tipología, Superficie, etc.</p>
+<p>*Campos obligatorios: Piso, N° de unidad, Tipo de unidad (verás algunas opciones por defecto, pero puedes crear más: <mark class="marker-yellow">Tipos de unidades</mark>).</p>
+<p>Adicionalmente, podrás seleccionar si esa unidad está disponible para reventa y agregar todas las unidades que creas necesarias en el botón de <u>Agregar Unidad.</u></p>
+<figure class="image">
+    <img src="/imagenes/unida_2.png" alt="Detalles de unidad">
+</figure>
+<p>3. Haces clic en Guardar y podrás ver la unidad creada.</p>
+<figure class="image">
+    <img src="/imagenes/unida_3.png" alt="Unidad creada">
+</figure>
+<p>Ve nuestro video Tutorial</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/MJlfnSg8Ggg?si=KaXqbMdChH3Elcji&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h6>Carga Masiva (Archivo Importador)</h6>
+<p>1. En la esquina superior derecha vas a encontrar el botón de Crear unidades, el cual vas a seleccionar:</p>
+<figure class="image">
+    <img src="/imagenes/unidades_1.png" alt="Crear unidades">
+</figure>
+<p>2. Se abrirá una ventana para que ingreses el detalle de las unidades. En la parte inferior veremos un Botón Azul: <i>Importar Unidades</i>. Haremos clic en la flecha donde tendremos la opción de Descargar la Planilla Importadora.</p>
+<figure class="image">
+    <img src="/imagenes/unidade_4.png" alt="Descargar Planilla Importadora">
+</figure>
+<p>3. En este archivo ingresaremos todos los detalles de nuestras unidades: Piso, N° de unidad, Tipo de unidad, precio en USD, Tipología, Superficie, Seleccionar si es para reventa o no, etc.</p>
+<p>*Campos obligatorios: Piso, N° de unidad, Tipo de unidad (verás algunas opciones por defecto, pero puedes crear más: <mark class="marker-yellow">Tipos de unidades.</mark> Si agregas más unidades, debes volver a descargar la planilla).</p>
+<figure class="image">
+    <img src="/imagenes/unidades_5.png" alt="Detalles de unidades masivas">
+</figure>
+<p>4. Una vez completa la carga de las unidades, vas a volver a la plataforma para subir la planilla. Para ello, vas a hacer clic en el botón Importar Unidades, que te habilitará para seleccionar el archivo o arrastrarlo.</p>
+<figure class="image">
+    <img src="/imagenes/unidades_6.png" alt="Importar Unidades">
+</figure>
+<p>5. Una vez cargada la planilla, podrás ver todas las unidades ingresadas y haces clic en Guardar.</p>
+<figure class="image">
+    <img src="/imagenes/unidades_7.png" alt="Guardar Unidades">
+</figure>
+<p>6. ¡Listo! Ya tienes cargadas en el sistema todas las unidades del proyecto.</p>
+<p>Nota: Si quieres editar alguna unidad, solo debes hacer clic en los 3 puntitos y seleccionar la opción Ver detalle/Editar.</p>
+<figure class="image">
+    <img src="/imagenes/unidades_8.png" alt="Editar unidad">
+</figure>
+<p>Ve nuestro video Tutorial</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/VYesfQE11fo?si=P5-sdNa-X3SlWgwQ&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionrubros">Configuración Rubros</h2>
+<p>La definición de rubros nos permitirá tener mejor orden e identificar de manera más precisa nuestros Proveedores y Gastos.</p>
+<p>Losa0 traerá por defecto los rubros más comunes en el desarrollo inmobiliario, pero también vas a poder agregar o eliminar.</p>
+<p>Nota: el sistema tiene una estructura de Árbol de Rubros y Subrubros.</p>
+<p>1. Para configurar tus Rubros, debes dirigirte al panel principal, buscar el módulo Configuración y hacer clic.</p>
+<p>2. Posteriormente, vas a ubicar la opción de <i>Rubros</i>, clic para ingresar.</p>
+<p>3. Podrás visualizar el listado de Rubros.</p>
+<p>4. Si quieres eliminar un rubro, busca los 3 puntitos, haz clic para desplegar las opciones y posteriormente clic en <i>eliminar</i>.</p>
+<p>5. Si quieres agregar un nuevo rubro, en la parte superior derecha vas a ubicar el botón de <i>Crear Rubro</i>.</p>
+<figure class="image">
+    <img src="/imagenes/rubros_2.png" alt="Crear Rubro">
+</figure>
+<p>6. Se abrirá una ventana para ingresar todos los datos correspondientes: Nombre del Rubro, Tipo (Proveedor o Cliente).</p>
+<p>Nota: Si el rubro a ingresar es un Rubro Padre, el campo <i>Rubro padre</i> se deja vacío. Si el Rubro a ingresar es un Subrubro, el campo <i>Rubro padre</i> debe contener el rubro al cual pertenecerá.</p>
+<p>Importante: El sistema crea por defecto <i>Cuentas contables</i> de los rubros ubicadas en la cuenta contable <i>Obra en curso</i>. Si no quieren trabajar con este plan de cuentas, pueden crear la cuenta contable y agrupar los rubros en esta.</p>
+<figure class="image">
+    <img src="/imagenes/rubros_3.png" alt="Agregar Rubro">
+</figure>
+<p>7. Una vez completada la información, clic en Guardar.</p>
+<p>8. Listo, ya tienes configurados tus Rubros.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/bp1m_n_KFqs?si=lyggv9crzBfAW-0&wcc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionbancos">Configuración de bancos</h2>
+<p>La configuración de bancos es clave para que puedas tener todo el seguimiento de tus transacciones. Para esto, es necesario que se realice la configuración de bancos de manera manual o por medio de un archivo CSV.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Bancos, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/bancos_1.png" alt="Configuración de Bancos">
+</figure>
+<p>3. Verás el listado de Bancos que tienes cargados en el sistema. Puedes eliminar el banco deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo banco, puedes hacer clic en el botón Crear Banco.</p>
+<figure class="image">
+    <img src="/imagenes/bancos_2.png" alt="Agregar Banco">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre, Tipo de banco, CBU, CUIT y habilitar las cuentas que deseas cargar.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus bancos configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/fgVXKpJp9Gk?si=JjDcwh4goQxS1-bD&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracioncajas">Configuración de Cajas</h2>
+<p>La configuración de Cajas es clave para que puedas tener todo el seguimiento de tus transacciones. Para esto, es necesario que se realice la configuración de cajas de manera manual o por medio de un archivo CSV.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Cajas, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/cajas_1.png" alt="Configuración de Cajas">
+</figure>
+<p>3. Verás el listado de Cajas que tienes cargadas en el sistema. Puedes eliminar la caja deseada, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar una nueva caja, puedes hacer clic en el botón Crear Caja.</p>
+<figure class="image">
+    <img src="/imagenes/cajas_2.png" alt="Agregar Caja">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre, Moneda y habilitar las cuentas que deseas cargar.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus cajas configuradas.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/-mhYQ1uiJno?si=wvh8me3A_aHBA7SE&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionmonedas">Configuración de Monedas</h2>
+<p>La configuración de monedas es clave para que puedas tener todo el seguimiento de tus transacciones. Para esto, es necesario que se realice la configuración de monedas de manera manual o por medio de un archivo CSV.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Monedas, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/monedas_1.png" alt="Configuración de Monedas">
+</figure>
+<p>3. Verás el listado de Monedas que tienes cargadas en el sistema. Puedes eliminar la moneda deseada, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar una nueva moneda, puedes hacer clic en el botón Crear Moneda.</p>
+<figure class="image">
+    <img src="/imagenes/monedas_2.png" alt="Agregar Moneda">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre, Simbolo y habilitar las cuentas que deseas cargar.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus monedas configuradas.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/7zXy3kKgTRg?si=Vx5qk2t-ESMrf-P8&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionusuarios">Configuración de Usuarios y Roles</h2>
+<p>La configuración de usuarios y roles es clave para poder definir qué usuarios tendrán acceso a la plataforma y que operaciones podrán realizar.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Usuarios y Roles, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/usuarios_1.png" alt="Configuración de Usuarios y Roles">
+</figure>
+<p>3. Verás el listado de Usuarios que tienes cargados en el sistema. Puedes eliminar el usuario deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo usuario, puedes hacer clic en el botón Crear Usuario.</p>
+<figure class="image">
+    <img src="/imagenes/usuarios_2.png" alt="Agregar Usuario">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre, Apellido, Email y habilitar las cuentas que deseas cargar.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus usuarios configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/1ev3MJmW5h8?si=z-6OM7pu6vNLt7vK&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionindices">Configuración de Índices</h2>
+<p>La configuración de índices es clave para que puedas tener el seguimiento de los índices que vas a utilizar para tu sistema.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Índices, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/indices_1.png" alt="Configuración de Índices">
+</figure>
+<p>3. Verás el listado de Índices que tienes cargados en el sistema. Puedes eliminar el índice deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo índice, puedes hacer clic en el botón Crear Índice.</p>
+<figure class="image">
+    <img src="/imagenes/indices_2.png" alt="Agregar Índice">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre y Detalle.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus índices configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/mWMW_B9QOwo?si=v3tW7sYtp_kZ7O5L&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="tiposcuotas">Tipos de Cuotas</h2>
+<p>La configuración de tipos de cuotas es clave para que puedas definir las opciones de cuotas que deseas ofrecer.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Tipos de Cuotas, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/cuotatipo_1.png" alt="Configuración de Tipos de Cuotas">
+</figure>
+<p>3. Verás el listado de Tipos de Cuotas que tienes cargados en el sistema. Puedes eliminar el tipo de cuota deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo tipo de cuota, puedes hacer clic en el botón Crear Tipo de Cuota.</p>
+<figure class="image">
+    <img src="/imagenes/cuotatipo_2.png" alt="Agregar Tipo de Cuota">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre y Detalle.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus tipos de cuotas configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/t8BkGbpB5as?si=e_bzTSs0WjNBfRh8&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracioncomisiones">Configuración de Tipos de Comisiones</h2>
+<p>La configuración de tipos de comisiones es clave para que puedas definir las opciones de comisiones que deseas ofrecer.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Tipos de Comisiones, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/comisiontipo_1.png" alt="Configuración de Tipos de Comisiones">
+</figure>
+<p>3. Verás el listado de Tipos de Comisiones que tienes cargados en el sistema. Puedes eliminar el tipo de comisión deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo tipo de comisión, puedes hacer clic en el botón Crear Tipo de Comisión.</p>
+<figure class="image">
+    <img src="/imagenes/comisiontipo_2.png" alt="Agregar Tipo de Comisión">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre y Detalle.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus tipos de comisiones configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/11_Hze-L-7Q?si=G5pPLHQ8H2DaR2cR&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuraciongastos">Configuración de Tipos de Gastos</h2>
+<p>La configuración de tipos de gastos es clave para que puedas definir las opciones de gastos que deseas ofrecer.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Tipos de Gastos, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/gastotipo_1.png" alt="Configuración de Tipos de Gastos">
+</figure>
+<p>3. Verás el listado de Tipos de Gastos que tienes cargados en el sistema. Puedes eliminar el tipo de gasto deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo tipo de gasto, puedes hacer clic en el botón Crear Tipo de Gasto.</p>
+<figure class="image">
+    <img src="/imagenes/gastotipo_2.png" alt="Agregar Tipo de Gasto">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre y Detalle.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus tipos de gastos configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ndSbyG-sNnE?si=6LM_v8VOe8MjZ7sN&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionnotasdecredito">Configuración de Notas de Créditos</h2>
+<p>La configuración de notas de créditos es clave para que puedas definir las opciones de notas de créditos que deseas ofrecer.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Notas de Créditos, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/notascredito_1.png" alt="Configuración de Notas de Créditos">
+</figure>
+<p>3. Verás el listado de Notas de Créditos que tienes cargados en el sistema. Puedes eliminar la nota de crédito deseada, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar una nueva nota de crédito, puedes hacer clic en el botón Crear Nota de Crédito.</p>
+<figure class="image">
+    <img src="/imagenes/notascredito_2.png" alt="Agregar Nota de Crédito">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre y Detalle.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus notas de créditos configuradas.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/YxZTldfEYTA?si=_IHvUtFDvlmgP_9K&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionproveedores">Configuración de Proveedores</h2>
+<p>La configuración de proveedores es clave para que puedas tener todo el seguimiento de tus transacciones. Para esto, es necesario que se realice la configuración de proveedores de manera manual o por medio de un archivo CSV.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Proveedores, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/proveedores_1.png" alt="Configuración de Proveedores">
+</figure>
+<p>3. Verás el listado de Proveedores que tienes cargados en el sistema. Puedes eliminar el proveedor deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo proveedor, puedes hacer clic en el botón Crear Proveedor.</p>
+<figure class="image">
+    <img src="/imagenes/proveedores_2.png" alt="Agregar Proveedor">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre, CUIT, Email, Teléfono, Dirección y detallar sus condiciones de pago.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus proveedores configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/3okgWy61cKo?si=a6I8yw4O0oqw5zLa&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+
+<h2 id="configuracionclientes">Configuración de Clientes</h2>
+<p>La configuración de clientes es clave para que puedas tener todo el seguimiento de tus transacciones. Para esto, es necesario que se realice la configuración de clientes de manera manual o por medio de un archivo CSV.</p>
+<p>1. Debes ingresar al panel principal, buscar la opción Configuración y hacer clic.</p>
+<p>2. Ubicarás la opción Clientes, haz clic para ingresar.</p>
+<figure class="image">
+    <img src="/imagenes/clientes_1.png" alt="Configuración de Clientes">
+</figure>
+<p>3. Verás el listado de Clientes que tienes cargados en el sistema. Puedes eliminar el cliente deseado, si lo quieres hacer, simplemente busca los 3 puntitos y elige <i>eliminar</i>.</p>
+<p>4. Si deseas agregar un nuevo cliente, puedes hacer clic en el botón Crear Cliente.</p>
+<figure class="image">
+    <img src="/imagenes/clientes_2.png" alt="Agregar Cliente">
+</figure>
+<p>5. Aparecerá una ventana donde podrás cargar los datos de: Nombre, CUIT, Email, Teléfono, Dirección y detallar sus condiciones de pago.</p>
+<p>6. Una vez cargada toda la información, clic en Guardar.</p>
+<p>7. Listo, ya tienes tus clientes configurados.</p>
+<p>Ve nuestro video tutorial:</p>
+<div class="video-container">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/p-x0hboUdfk?si=oyWvmsfpbqTH2oBq&cc_load_policy=1"
+            title="Video tutorial" frameborder="0" allowfullscreen>
+    </iframe>
+</div>
+</body>
+</html>

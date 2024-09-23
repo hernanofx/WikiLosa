@@ -1,1 +1,1 @@
-# WikiLosa / Base de conocimiento uso de LOSA 0
+# WikiLosa / Base de conocimiento de LOSA 0

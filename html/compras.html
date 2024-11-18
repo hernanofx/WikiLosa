@@ -1,0 +1,108 @@
+<div class="container mt-4">
+    <div class="menu-seccion">
+        <h5><a href="#crear-articulos" class="btn btn-primary">Crear Artículos</a></h5>
+        <h5><a href="#crear-destinos" class="btn btn-primary">Crear Destinos</a></h5>
+        <h5><a href="#generar-solicitudes-compra" class="btn btn-primary">Generar Solicitudes de Compra</a></h5>
+        <h5><a href="#generar-orden-compra-solicitud" class="btn btn-primary">Generar Orden de Compra a partir de una Solicitud</a></h5>
+        <h5><a href="#generar-compulsas-solicitud" class="btn btn-primary">Generar Compulsas a partir de una Solicitud (3 formatos de compulsa)</a></h5>
+        <h5><a href="#agregar-presupuestos-compulsas" class="btn btn-primary">Agregar Presupuestos a las Compulsas</a></h5>
+        <h5><a href="#adjudicar-presupuesto-ganador" class="btn btn-primary">Adjudicar el Presupuesto Ganador de la Compulsa y Generar esa OC</a></h5>
+        <h5><a href="#generar-ordenes-compra" class="btn btn-primary">Generar Órdenes de Compra</a></h5>
+        <h5><a href="#ordenes-compra-lista-precio" class="btn btn-primary">Órdenes de Compra por Lista de Precios (Acopio por Lista de Precios)</a></h5>
+        <h5><a href="#ordenes-compra-articulo" class="btn btn-primary">Órdenes de Compra por Artículo (Acopio por Materiales)</a></h5>
+        <h5><a href="#generarremitoscompletos" class="btn btn-primary">Generar Remitos Completos</a></h5>
+        <h5><a href="#generar-fc-oc" class="btn btn-primary">Generar FC x1 o x99 a la OC</a></h5>
+        <h5><a href="#generarremitosparciales" class="btn btn-primary">Generar Remitos Parciales</a></h5>
+        <h5><a href="#impresion-oc" class="btn btn-primary">Impresión de OC</a></h5>
+        <h5><a href="#crear-operaciones-stock" class="btn btn-primary">Crear Operaciones de Stock</a></h5>
+    </div>
+</div>
+<div id="generar-solicitudes-compra">
+    <h2>Generar Solicitudes de Compra</h2>
+    <p>Dentro del módulo de compras se van a poder crear solicitudes de compra o también llamadas notas de pedido o solicitudes de la obra.
+        Se van a poder registrar aquellas necesidades que tienen las distintas obras y emprendimientos, por ejemplo una fecha vencimiento a la cual se necesite obtener estos materiales o mano de obra, se selecciona el proyecto, se van a poder colocar una descripción y dentro del listado de artículos que tenemos en la sección de compras artículos se van a poder detallar los distintos artículos que se necesiten para esa emprendimiento.
+        En este caso se pone la cantidad de cada uno de estos artículos y también se puede poner cualquier otro, en este caso vamos a elegir cualquiera completando así la solicitud hay distintos atributos que explicaremos más adelante, en el caso de tener permisos de autorizar solicitudes de compra o notas de pedido o pedidos de la obra, podemos darla crear la solicitud ya autorizada y en el caso de no tener permisos va a estar deshabilitada esta autorización, pudiendo permitir que haya usuarios que creen la solicitud pero que hayan otros que la autoricen; si yo no tuviera permisos quedaría la solicitud correspondiente pendiente de aprobación, si tuviera permisos se hubiera generado de forma autorizada </p>
+        <br>
+         <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/CQWP6eYMbyM?si=QQt0fojkeEWmiGz_&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="generar-compulsas-solicitud">
+    <h2>Generar Compulsas a partir de una Solicitud</h2>
+    <p>Cuando tengo una solicitud con artículos para un emprendimiento, tengo dos formas de avanzar. La primera es generar directamente una orden de compra desde la solicitud, seleccionando el proveedor y creando la orden correspondiente. La segunda opción es entrar en la solicitud, revisar los detalles y crear una compulsa o licitación para comparar presupuestos antes de elegir el proveedor.
+        Al crear la compulsa, puedo elegir entre:
+        Hacer una única compulsa para todos los ítems de la solicitud.
+        Dividirla por rubros si hay artículos de categorías diferentes.
+        Personalizarla según mis necesidades.
+        En este caso, decidí crear una compulsa única para toda la solicitud, ajustando detalles como el nombre, la fecha de vencimiento y las cantidades. Al finalizar, la solicitud queda en estado "en compulsa".</p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/6JjaMlJOaBw?si=1sHT-5yWhkEeje5Y&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="generar-orden-compra-solicitud">
+    <h2>Generar Orden de Compra a partir de una Solicitud</h2>
+    <p>Reviso detalle por detalle de los ítems, incluyendo subtotales, el total, y cualquier descuento o consideración necesaria para elegir al proveedor al que le adjudicaré la orden de compra. Esta orden está vinculada a la compulsa creada previamente y a la solicitud o nota del pedido de la obra. Si es necesario, incluyo un número para la orden y configuro una cuenta corriente para gestionar facturas, certificados, pagos y más.
+        Después, verifico los detalles del acopio de materiales que recibiré del proveedor seleccionado. Una vez adjudicada la compulsa, toda esta información queda registrada como histórica y accesible para futuras consultas. Finalmente, en el apartado de órdenes de compra, encuentro la orden generada con los datos del proveedor, rubro, emprendimiento y artículos correspondientes. La orden queda aprobada, pero aún está pendiente de remito y factura.</p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/9Hl3PCZjdtI?si=zIhjNLR2kpYQUpEW&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="agregar-presupuestos-compulsas">
+    <h2>Agregar Presupuestos a las Compulsas</h2>
+    <p>Entro en la compulsa y comienzo a crear los presupuestos que obtengo de diferentes proveedores. Para el primer presupuesto, selecciono la fecha de entrega, el proveedor, y completo los precios unitarios de cada artículo, indicando las unidades correspondientes, ya sea en metros cuadrados, metros cúbicos, unidades, etc. También añado un detalle informativo que puede ser útil para la comparativa, como descuentos por método de pago, IVA, y otros aspectos relacionados con impuestos y condiciones.
+        Una vez cargado este presupuesto, puedo filtrar por artículos para revisar detalles específicos o verlos todos juntos. Además, si los proveedores usan monedas diferentes, puedo convertir los valores para estandarizarlos. Luego, procedo a crear un segundo presupuesto para otro proveedor.</p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/SV-11EkLtIo?si=3RjJGJZXZxXbLLf8&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="adjudicar-presupuesto-ganador">
+    <h2>Adjudicar el Presupuesto Ganador de la Compulsa y Generar esa OC</h2>
+    <p>Reviso cada detalle de los ítems, incluyendo subtotales, totales y descuentos, para elegir al proveedor al que le adjudicaré la orden de compra de la compulsa vinculada a la solicitud o nota de pedido de la obra. Si es necesario, añado un número a la orden y creo una cuenta corriente para registrar facturas, certificados, pagos y otros datos relacionados.
+        Después, verifico los detalles del acopio de materiales que recibiremos del proveedor según la orden de compra. Una vez adjudicada, toda esta información queda registrada como histórica para consultarla cuando lo necesite. Finalmente, en la sección de órdenes de compra, veo la orden generada con los datos del proveedor, rubro, emprendimiento y artículos correspondientes. La orden queda aprobada, pero aún está pendiente de remito y factura.
+    </p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/9Hl3PCZjdtI?si=a936N82zzAnBackk&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="generarremitoscompletos">
+    <h2>Generar Remitos Completos</h2>
+    <p>Puedo generar uno o varios remitos según vaya recibiendo la mercadería. Para cada ítem, decido si se acopia en un almacén, depósito, en el proveedor, o directamente en la obra. En este caso, decido acopiar las cantidades en la obra, lo que me permite tener el remito correspondiente listo. Lo único que queda pendiente es generar la primera factura.
+        Luego, reviso en la sección de stock cómo quedan los artículos en las ubicaciones correspondientes. Por ejemplo, en esta remito, tengo 30 unidades del primer artículo y 20 del segundo, acopiados directamente en la obra.
+    </p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/KNRR7Wq3HUk?si=RBYaYo53tyHwho6T&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="generarremitosparciales">
+    <h2>Generar Remitos Parciales</h2>
+    <p>Puedo generar uno o varios remitos según vaya recibiendo la mercadería. Para cada ítem, decido si se acopia en un almacén, depósito, en el proveedor, o directamente en la obra. En este caso, decido acopiar las cantidades en la obra, lo que me permite tener el remito correspondiente listo. Lo único que queda pendiente es generar la primera factura.
+        Luego, reviso en la sección de stock cómo quedan los artículos en las ubicaciones correspondientes. Por ejemplo, en esta remito, tengo 30 unidades del primer artículo y 20 del segundo, acopiados directamente en la obra.
+    </p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/KNRR7Wq3HUk?si=RBYaYo53tyHwho6T&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+<div id="generar-fc-oc">
+    <h2>Generar FC x1 o x99 a la OC</h2>
+    <p>Puedo generar facturas asociadas a una orden de compra específica. Para ello, selecciono la razón social correspondiente y la orden de compra, que ya incluye los detalles de los montos. Por defecto, se toma el total de los ítems, pero también podría ajustar los valores y cantidades según sea necesario.
+    </p>
+    <p>Ve nuestro video tutorial:</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+        <iframe src="https://www.youtube.com/embed/Kh5A0vzIn-s?si=-GsqsWsCBWMlsKgL&cc_load_policy=1" title="Video tutorial" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>

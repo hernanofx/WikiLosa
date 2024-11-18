@@ -1,0 +1,22 @@
+<body>
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>Si necesitas ayuda, no dudes en ponerte en contacto con nosotros.</p>
+        <form id="contact-form" action="/contact" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="tuemail@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="issue" class="form-label">Descripción del Problema</label>
+                <textarea class="form-control" id="issue" rows="6" placeholder="Describe brevemente tu problema..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit-btn">Enviar</button>
+        </form>
+    </div>
+
+</body>
